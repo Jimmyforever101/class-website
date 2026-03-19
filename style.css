@@ -1,0 +1,86 @@
+body{
+
+}
+
+#home{
+
+}
+
+.header{
+    background-color: #8fbc8f;
+    border-radius: 15px;
+    text-align: center;
+    color:darkblue;
+}
+
+.nav{
+list-style: none;
+}
+
+.nav nav li{
+    display: inline;
+    gap: 15px;
+    
+}
+.nav nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.hero{
+    background-image:url(image-omelette.jpeg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+.text {
+    padding-top: 150px;
+    color:rgb(5, 250, 181)
+}
+#menu{
+    display:flex;
+    gap: 15px;
+    
+}
+
+.menu-item{
+    width:25%;
+    background-color: #f0e68c;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+#services {
+    display: flex;
+    gap: 15px;
+}
+
+.list{
+    border-radius: 15px;
+    background-color:orange;
+    width:25%;
+    padding: 20px;
+
+}
+#contact{
+    background-color: #f0e68c;
+    border-radius: 15px;
+    padding: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    justify-content: center;
+    padding-left: 400px;
+}
+.form input, .form textarea{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
